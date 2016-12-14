@@ -9,6 +9,7 @@ class Main(RootWindow):
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
+    app.setStyle("fusion")
     window = QtWidgets.QMainWindow()
     running = Main(window)
     window.show()
